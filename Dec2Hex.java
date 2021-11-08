@@ -1,4 +1,4 @@
-import java.util.Scanner;
+mport java.util.Scanner;
 
 class Dec2Hex
 {
@@ -8,14 +8,15 @@ class Dec2Hex
     public static void main(String args[])
     {
         if(Arg1 == null)
-        {
+        Arg1 = Integer.parseInt(args[0]);
+
+	{
             System.out.println("No input recorded"); 
         } 
         else
         {
 
            
-        Arg1 = Integer.parseInt(args[0]);
         char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         int rem, num;
         num = Arg1;
@@ -33,4 +34,3 @@ class Dec2Hex
     }
     }
 }
-
