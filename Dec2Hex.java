@@ -7,7 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	Arg1 = Integer.parseInt(args);
+	Arg1 = Integer.parseInt(args[]);
        	if(Arg1 == null)
 
 	{
