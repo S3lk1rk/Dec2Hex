@@ -24,6 +24,7 @@ class Dec2Hex
 
         System.out.println("Hexadecimal representation is: " + hexadecimal);
             // Catch block to handle NumberFormatException
+}
             catch (NumberFormatException e) {
  
                 // Print the message if exception occured
