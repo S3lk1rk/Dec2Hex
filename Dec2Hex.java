@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Dec2Hex
 {
 
-    public static integer Arg1;
+    public static Integer Arg1;
 
     public static void main(String args[])
     {
