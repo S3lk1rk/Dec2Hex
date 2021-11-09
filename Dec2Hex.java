@@ -11,8 +11,7 @@ class Dec2Hex
     {
         if (args.equals("")){
             System.out.println("INVALID");
-            return;
-}
+            }
             try
             {
                  EnteredValue = Integer.parseInt(args[0]);
