@@ -9,6 +9,9 @@ class Dec2Hex
 
     public static void main(String args[])
     {
+        if (args.equals("")){
+            System.out.println("INVALID");
+            return;
 
             try
             {
@@ -17,8 +20,8 @@ class Dec2Hex
             catch(NumberFormatException ex)
             {
               System.out.println("The entered value exists outwith the current bounds of the system, please enter an integer");
-              return;
             }
+
 
 
         EnteredValue = Integer.parseInt(args[0]);
