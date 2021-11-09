@@ -9,7 +9,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-        if (args.length == 0 || (args.equals(" "))) 
+        if (args.length == 0 || (args.equals(" "))){ 
             System.out.println("No entry made, please enter an integer");
 	    return;
             }
