@@ -12,7 +12,7 @@ class Dec2Hex
         if (args.equals("")){
             System.out.println("INVALID");
             return;
-
+}
             try
             {
                  EnteredValue = Integer.parseInt(args[0]);
@@ -41,5 +41,5 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 }
 
-}
+
 
