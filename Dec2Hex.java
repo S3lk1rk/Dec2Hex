@@ -7,7 +7,18 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-        try {
+
+            try
+            {
+                 Arg1 = Integer.parseInt(args[0]);
+            }
+            catch(NumberFormatException ex)
+            {
+              System.out.println("NumberFormatException occured");
+              return;
+            }
+
+        
         Arg1 = Integer.parseInt(args[0]);
         char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
         int rem, num;
@@ -25,12 +36,6 @@ class Dec2Hex
         System.out.println("Hexadecimal representation is: " + hexadecimal);
             // Catch block to handle NumberFormatException
 }
-            catch (NumberFormatException e) {
- 
-                // Print the message if exception occured
-                System.out.println(
-                    "NumberFormatException occured");
-            }
-    }
 
 }
+
