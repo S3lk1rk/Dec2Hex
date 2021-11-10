@@ -17,7 +17,7 @@ class Dec2Hex
     
         if (args.length == 0 || (args.equals(" "))){ 
        
-     		empty= "No entry made, please enter an integer";
+     		String empty= "No entry made, please enter an integer";
 	   	return empty;
             }
             try
@@ -26,7 +26,7 @@ class Dec2Hex
             }
             catch(NumberFormatException ex)
             {	
-		exception="The entered value exists outwith the current bounds of the system, please enter an integer";
+		String exception="The entered value exists outwith the current bounds of the system, please enter an integer";
             return exception;
 		}
 
@@ -46,7 +46,7 @@ class Dec2Hex
             num= num/16;
         }
 
-        conversion= ("Hexadecimal representation is: " + hexadecimal);
+        String conversion= ("Hexadecimal representation is: " + hexadecimal);
 	return conversion;
 }
 }
