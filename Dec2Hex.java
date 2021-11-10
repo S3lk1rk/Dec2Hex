@@ -14,7 +14,7 @@ class Dec2Hex
 
     }
     public static Dec2HexConv(String args[]){
-    {
+    
         if (args.length == 0 || (args.equals(" "))){ 
             System.out.println("No entry made, please enter an integer");
 	    return;
