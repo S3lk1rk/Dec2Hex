@@ -13,7 +13,7 @@ class Dec2Hex
        Dec2HexConv(args); 
 
     }
-    public static Dec2HexConv(String args[]){
+    public static String Dec2HexConv(String args[]){
     
         if (args.length == 0 || (args.equals(" "))){ 
        
