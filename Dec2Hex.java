@@ -16,8 +16,8 @@ class Dec2Hex
     public static Dec2HexConv(String args[]){
     
         if (args.length == 0 || (args.equals(" "))){ 
-            System.out.println("No entry made, please enter an integer");
-	    return;
+            return "No entry made, please enter an integer";
+	   
             }
             try
             {
@@ -25,7 +25,7 @@ class Dec2Hex
             }
             catch(NumberFormatException ex)
             {
-              System.out.println("The entered value exists outwith the current bounds of the system, please enter an integer");
+            return "The entered value exists outwith the current bounds of the system, please enter an integer";
             }
 
 
@@ -44,7 +44,7 @@ class Dec2Hex
             num= num/16;
         }
 
-        System.out.println("Hexadecimal representation is: " + hexadecimal);
+        return "Hexadecimal representation is: " + hexadecimal;
 }
 }
 
