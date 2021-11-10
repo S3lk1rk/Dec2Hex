@@ -10,8 +10,8 @@ class Dec2Hex
     public static void main(String args[])
     {
         
-     String Testing = Dec2HexConv(args); 
-	return Testing;
+     System.out.println(Dec2HexConv(args)); 
+
     }
     public static String Dec2HexConv(String args[]){
     
