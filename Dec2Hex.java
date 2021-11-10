@@ -10,7 +10,7 @@ class Dec2Hex
     public static void main(String args[])
     {
         
-       Dec2HexConv(args); 
+     return  Dec2HexConv(args); 
 
     }
     public static String Dec2HexConv(String args[]){
