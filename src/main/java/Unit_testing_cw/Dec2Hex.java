@@ -14,10 +14,12 @@ class Dec2Hex
 
     }
     public static String Dec2HexConv(String args[]){
+	// this checks if the argument input is empty by checking if its length is 0, if it is an error is displayed
                 if (args.length == 0){
                 String Unfilled="No entry made, please enter an integer";
                 return Unfilled;
             }
+	// if a non integer is input this catches the exception and outputs an error message
             try
             {
                  EnteredValue = Integer.parseInt(args[0]);

@@ -39,10 +39,11 @@ public class cw1test {
         assertEquals("Hexadecimal representation is: F4240", Dec2Hex.Dec2HexConv(new String[] {"1000000"}));
     }
     //Testing exceptional values (Values outside the range of the acceptable input)
+    //this tests the task 5 requirement for when no input is provided
     @Test public void D2Htest6() {
         assertEquals("No entry made, please enter an integer",Dec2Hex.Dec2HexConv(new String[0]));
    }
-
+    //the following tests handle the other task 5 requirement of when a non integer is supplied
     @Test public void D2Htest7() {
         assertEquals("The entered value exists outwith the current bounds of the system, please enter an integer",Dec2Hex.Dec2HexConv(new String[]{"SSada2dax-"}));
    }
