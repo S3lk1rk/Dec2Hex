@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class cw1test {
-    //Testing normal values (standard values in the range of input)
+    //Testing normal values (standard values in the range of input )
     @Test public void D2Htest1() {
         assertEquals("Hexadecimal representation is: 5", Dec2Hex.Dec2HexConv(new String[] {"5"}));
     }
